@@ -1,0 +1,51 @@
+body {
+  background: url(../images/bg-intro-desktop.png), var(--color-primary-red);
+  font-size: 1.4rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main__hero {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.main__title {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.main__form-wrapper {
+  width: 100%;
+}
+
+.main__form-section {
+  width: 100%;
+}
+
+.main__input {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+}
+
+.main__button,
+.main__button-submit {
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: 1.4rem;
+}
+
+.main__terms {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
