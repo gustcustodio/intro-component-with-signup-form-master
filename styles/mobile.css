@@ -2,7 +2,7 @@ body {
   background: url(../images/bg-intro-desktop.png), var(--color-primary-red);
   font-size: 1.4rem;
   padding: 1rem;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .main {

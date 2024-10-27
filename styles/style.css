@@ -29,6 +29,14 @@ body {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem */
+}
+
+html {
+  scrollbar-width: none; /* Oculta a barra de rolagem */
+}
+
 .main {
   display: flex;
   justify-content: space-around; /* espaçamento entre as seções */
